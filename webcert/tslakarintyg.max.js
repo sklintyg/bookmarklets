@@ -23,7 +23,7 @@ $("#syndy").click();
 $("#synen").focus();
 $("#synen").click();
 $("#synHogerOgaUtanKorrektion").val("0,0").change();
-$("#synHogerOgaMedKorrektion").val("0,2"
+$("#synHogerOgaMedKorrektion").val("0,2")
 $("#synHogerOgaKontaktlins").click();
 $("#synVansterOgaUtanKorrektion").val("0,0").change();
 $("#synVansterOgaMedKorrektion").val("0,2").change();
