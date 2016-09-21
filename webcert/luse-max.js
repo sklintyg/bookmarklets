@@ -1,4 +1,4 @@
-var today = new Date();
+kanonvar today = new Date();
 var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
 
 $("input[id*='date_undersokningAvPatienten_']").click();
@@ -6,7 +6,7 @@ $("input[id*='_date_journaluppgifter_']").click();
 $("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
-/*$("input[id*='date_kannedomOmPatient_']").click();*/
+$("input[id*='-toggle']").click();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlagFinnsYes").prop("checked", true);
 $("#underlagFinnsYes").click();
