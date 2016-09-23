@@ -1,4 +1,4 @@
-kanonvar today = new Date();
+var today = new Date();
 var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
 
 $("input[id*='date_undersokningAvPatienten_']").click();
@@ -6,6 +6,7 @@ $("input[id*='_date_journaluppgifter_']").click();
 $("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
+$("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
 $("input[id*='-toggle']").click();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlagFinnsYes").prop("checked", true);
@@ -21,23 +22,15 @@ $("button:contains('ytterligare underlag')").click();
 $("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
-/*$("button:contains('ytterligare underlag')").click();
-$("#underlag-3-typ").val('string:PSYKOLOG').change();
-$("#underlag-3-datum").val(todayDateString).change();
-$("#underlag-3-hamtasFran").val('CSK').change();
-$("button:contains('ytterligare underlag')").click();
-$("#underlag-4-typ").val('string:PSYKOLOG').change();
-$("#underlag-4-datum").val(todayDateString).change();
-$("#underlag-4-hamtasFran").val('CSK').change();*/
 $("#sjukdomsforlopp").val("Patienten har haft besvären i olika omgångar och aldrig riktigt fått vara helt frisk, Patienten känner sig trött och orkeslös efter alla års sjukdom. Forsta insjuknandet inföll sig vid 6 års ålder och har sedan dess pågått.");
 $("#sjukdomsforlopp").change();
-$("#diagnoseCode-0").val("S47").change().blur();
-$("#diagnoseDescription").val("Klämskada på skuldra och överarm").change().blur();
-$("a:contains('Lägg till övriga diagnoser')").click();
-$("input[id*='diagnoseCode']").eq(1).val('F000').change().blur();
+$("#diagnoseCode-0").val('S47').click().blur();                                        /*här är jag*/
+$("#diagnoseDescription-0").val("Klämskada på skuldra och överarm").change().blur();
+$("#laggTillDiagnos").click().blur();
+$("#diagnoseCode-1").val('F000').click().blur();
 $("input[id*='diagnoseDescription']").eq(1).val('Demens vid Alzheimers sjukdom med tidig debut').change().blur();
-$("a:contains('Lägg till övriga diagnoser')").click();
-$("input[id*='diagnoseCode']").eq(2).val('G000').change().blur();
+$("#laggTillDiagnos").click().blur();
+$("#diagnoseCode-2").val('G000').click().blur();
 $("input[id*='diagnoseDescription']").eq(2).val('Meningit orsakad av Haemophilus influenzae').change().blur();
 $("#diagnosgrund").val("I tidernas begynnelse ställdes diagnosen för patienten på Sahlgrenska").change();
 $("#nyBedomningDiagnosgrundNo").prop("checked", true);
