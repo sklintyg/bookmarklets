@@ -1,0 +1,21 @@
+var today = new Date();
+var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
+
+$("input[id*='date_undersokningAvPatienten_']").click();
+$("input[id*='_date_journaluppgifter_']").click();
+$("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
+$("input[id*='_date_annatGrundForMU_']").click();
+$("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
+$("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
+$("#underlagFinnsYes").prop("checked", true).trigger("click");
+$("#underlag-0-typ").val('string:NEUROPSYKIATRISKT').change();
+$("#underlag-0-datum").val(todayDateString).change();
+$("#underlag-0-hamtasFran").val("Centralsjukhuset").change();
+$("#laggTillUnderlag").click();
+$("#underlag-1-typ").val('string:FYSIOTERAPEUT').change();
+$("#underlag-1-datum").val(todayDateString).change();
+$("#underlag-1-hamtasFran").val("Centralsjukhuset").change();
+$("#laggTillUnderlag").click();
+$("#underlag-2-typ").val('string:LOGOPED').change();
+$("#underlag-2-datum").val(todayDateString).change();
+$("#underlag-2-hamtasFran").val("Centralsjukhuset").change();

@@ -7,8 +7,8 @@ $("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
 $("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
-$("input[id*='-toggle']").click();
-$("#underlag-2-datum").val(todayDateString).change();
+/*$("input[id*='-toggle']").click();
+$("#underlag-2-datum").val(todayDateString).change();*/
 $("#underlagFinnsYes").prop("checked", true);
 $("#underlagFinnsYes").click();
 $("#underlag-0-typ").val('string:LOGOPED').change();
