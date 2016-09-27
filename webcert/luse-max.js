@@ -24,7 +24,7 @@ $("#underlag-2-datum").val(todayDateString).change();
 $("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
 $("#sjukdomsforlopp").val("Patienten har haft besvären i olika omgångar och aldrig riktigt fått vara helt frisk, Patienten känner sig trött och orkeslös efter alla års sjukdom. Forsta insjuknandet inföll sig vid 6 års ålder och har sedan dess pågått.");
 $("#sjukdomsforlopp").change();
-$("#diagnoseCode-0").val('S47').click().blur();                                        /*här är jag*/
+$("#diagnoseCode-0").val('S47').change().blur();                                       /*här är jag*/
 $("#diagnoseDescription-0").val("Klämskada på skuldra och överarm").change().blur();
 $("#laggTillDiagnos").click().blur();
 $("#diagnoseCode-1").val('F000').click().blur();
