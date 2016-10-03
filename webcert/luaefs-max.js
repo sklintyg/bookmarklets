@@ -59,3 +59,15 @@ var checkForElement3 = setInterval(function() {
       clearInterval(checkForElement3);
    }
 }, 1000);
+$("#funktionsnedsattningDebut").val("Utvecklades i tonåren, har svårt att säga nej.").change();
+$("#funktionsnedsattningPaverkan").val("Patienten gör pga av sitt problem alldeles för mycket läxor.").change();
+$("#ovrigt").val("Inget Övrigt.");
+$("input[id*='kontaktMedFk']").click();
+$("#anledningTillKontakt").val("Nej.").change();
+
+
+$("textarea[id*='tillaggsfragor[0]']").val("Jätte.").change();
+$("textarea[id*='tillaggsfragor[1]']").val("Tillräckligt.").change();
+
+
+
