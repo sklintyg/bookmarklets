@@ -34,6 +34,8 @@ $("#hjartkarlcy").prop("checked", true).trigger("click");
 $("#beskrivningRiskfaktorer").val("Kranskärlproblem").change();
 $("#diabetesay").prop("checked", true).trigger("click");
 $("#diabetestyp2").prop("checked", true).trigger("click");
+$("#diabetestreat1").click();
+$("#diabetestreat2").click();
 $("#diabetestreat3").click();
 $("#neurologiay").prop("checked", true).trigger("click");
 $("#medvetandestorningay").prop("checked", true).trigger("click");
