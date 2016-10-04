@@ -1,3 +1,6 @@
+var today = new Date();
+var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
+
 $("#typcheck0").click();
 $("#typcheck1").click();
 $("#typcheck2").click();
@@ -69,8 +72,7 @@ $("#hypogy").click();
 $("#hypogy").focus();
 $("#hypogy").click();
 $("#hypogy").focus();
-$("#allvarligForekomstVakenTidObservationstid").val("2015-02-02");
-$("#allvarligForekomstVakenTidObservationstid").change();
+$("#allvarligForekomstVakenTidObservationstid").val(todayDateString).change();
 $("#synan").click();
 $("#synan").focus();
 $("#synan").click();
