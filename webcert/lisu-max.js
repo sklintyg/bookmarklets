@@ -62,7 +62,6 @@ $("#arbetslivsinriktadeAtgarder-10").click();
 $("#arbetslivsinriktadeAtgarder-11").click();
 $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hjälp med allt.").change();
 $("#ovrigt").val("Allt är sagt.").change();
-/*$("#formly_53_checkbox-inline_kontaktMedFk_0").click();
-/*$("#anledningTillKontakt").val("Därför.").change();
-$("#tillaggsfragor[0].svar").val("Hurså?").change();
-$("#tillaggsfragor[1].svar").val("Tillräckligt."):change();*/
+$("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
+$("#anledningTillKontakt").val("Därför.").change();
+$("#tillaggsfragor[0]\\.svar").val("test").change();

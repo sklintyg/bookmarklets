@@ -31,7 +31,7 @@ $("#diabetestreat2").click();
 $("#diabetestreat3").click();
 $("#insulinBehandlingsperiod").val("2015");
 $("#insulinBehandlingsperiod").change();
-$("#annanBehandlingBeskrivning").val("1abcåäö--10ABCÅÄÖ--20--------30--------40----------53");
+$("#annanBehandlingBeskrivning").val("1abcåäö--10ABCÅÄÖ--20--------30--------40----------53").change();
 $("#hypoan").focus();
 $("#hypoan").click();
 $("#hypoan").focus();
