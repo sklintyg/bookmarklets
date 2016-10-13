@@ -21,11 +21,11 @@ $("#underlag-0-hamtasFran").val("Centralsjukhuset").change();
 $("#laggTillUnderlag").click();
 $("#underlag-1-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-1-datum").val(todayDateString).change();
-$("#underlag-1-hamtasFran").val("Centralsjukhuset").change();
+$("#underlag-1-hamtasFran").val("VC Sundsvall").change();
 $("#laggTillUnderlag").click();
 $("#underlag-2-typ").val('string:LOGOPED').change();
 $("#underlag-2-datum").val(todayDateString).change();
-$("#underlag-2-hamtasFran").val("Centralsjukhuset").change();
+$("#underlag-2-hamtasFran").val("VC Jupiter").change();
 $("#diagnoseCode-0").val('S47').change();
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
