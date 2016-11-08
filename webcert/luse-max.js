@@ -18,17 +18,18 @@ $("#underlagFinnsYes").prop("checked", true);
 $("#underlagFinnsYes").click();
 
 $("#underlag-0-typ > div.ui-select-match > span").click();
-$("input[id*='-choices-row-'] > span").click();
+$("[id$=-2]").click();
 $("#underlag-0-datum").val(todayDateString).change();
 $("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
 
 $("#underlag-1-typ > div.ui-select-match > span").click();
-$("#ui-select-choices-row-27-1 > span > span").click();
+$("[id$=-3]").click();
 $("#underlag-1-typ").val('string:LOGOPED').change();
 $("#underlag-1-datum").val(todayDateString).change();
 $("#underlag-1-hamtasFran").val('CSK').change();
 
 $("#underlag-2-typ > div.ui-select-match > span").click();
+$("[id$=-4]").click();
 $("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
