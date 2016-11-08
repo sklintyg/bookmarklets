@@ -14,30 +14,33 @@ $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
 $("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
 $("input[id*='-toggle']").click();
-/*$("#underlag-2-datum").val(todayDateString).change();*/
 $("#underlagFinnsYes").prop("checked", true);
 $("#underlagFinnsYes").click();
-$("#underlag-0-typ").click().on("click", function(){
-	$("span:contains('Underlag från psykolog')").click();
-});
+
+$("#underlag-0-typ > div.ui-select-match > span").click();
+$("input[id*='-choices-row-'] > span").click();
 $("#underlag-0-datum").val(todayDateString).change();
 $("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
-$("button:contains('ytterligare underlag')").click();
+
+$("#underlag-1-typ > div.ui-select-match > span").click();
+$("#ui-select-choices-row-27-1 > span > span").click();
 $("#underlag-1-typ").val('string:LOGOPED').change();
 $("#underlag-1-datum").val(todayDateString).change();
 $("#underlag-1-hamtasFran").val('CSK').change();
-$("button:contains('ytterligare underlag')").click();
+
+$("#underlag-2-typ > div.ui-select-match > span").click();
 $("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
+
 $("#diagnoseCode-0").val('S47').change();
 
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
-   if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
-			$("li[id*='option-0']").click();
+	if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
+    	$("li[id*='option-0']").click();
 			firstFound = true;
-   }
+	}
 	 if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
 		 $("#laggTillDiagnos").click().blur();
 		 $("#diagnoseCode-1").val('F205').change();
