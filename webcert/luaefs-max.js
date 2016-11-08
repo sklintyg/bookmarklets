@@ -15,17 +15,24 @@ $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
 $("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
-$("#underlag-0-typ").val('string:NEUROPSYKIATRISKT').change();
+
+$("#underlag-0-typ > div.ui-select-match > span").click();
+$("[id$=-2]").click();
 $("#underlag-0-datum").val(todayDateString).change();
-$("#underlag-0-hamtasFran").val("Centralsjukhuset").change();
-$("#laggTillUnderlag").click();
-$("#underlag-1-typ").val('string:FYSIOTERAPEUT').change();
+$("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
+
+$("#underlag-1-typ > div.ui-select-match > span").click();
+$("[id$=-3]").click();
+$("#underlag-1-typ").val('string:LOGOPED').change();
 $("#underlag-1-datum").val(todayDateString).change();
-$("#underlag-1-hamtasFran").val("VC Svanen").change();
-$("#laggTillUnderlag").click();
-$("#underlag-2-typ").val('string:LOGOPED').change();
+$("#underlag-1-hamtasFran").val('CSK').change();
+
+$("#underlag-2-typ > div.ui-select-match > span").click();
+$("[id$=-4]").click();
+$("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-2-datum").val(todayDateString).change();
-$("#underlag-2-hamtasFran").val("Molkoms VC").change();
+$("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
+
 $("#diagnoseCode-0").val('S47').change();
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
