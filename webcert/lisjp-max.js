@@ -1,10 +1,26 @@
+var today = new Date();
+var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
+var week = todayDateString + 7;
+
+
+function createEnterEvent() {
+	var e = jQuery.Event("keydown");
+	e.which = 13;
+	return e;
+}
+
 $("input[id*='date_undersokningAvPatienten_']").click();
 $("input[id*='_date_journaluppgifter_']").click();
 $("input[id*='_date_telefonkontaktMedPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
-$("#sysselsattning\\.typ-1").prop("checked", true).trigger("click");
+$("#sysselsattning-NUVARANDE_ARBETE").click();
 $("#nuvarandeArbete").val("Blomplockare").change();
+$("#sysselsattning-ARBETSSOKANDE").click();
+$("#sysselsattning-FORALDRALEDIG").click();
+$("#sysselsattning-STUDIER").click();
+$("#sysselsattning-PROGRAM").click();
+$("#arbetsmarknadspolitisktProgram").val("Plantskole rektor").change();
 
 $("#diagnoseCode-0").val('S47').change();
 
@@ -44,6 +60,9 @@ $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
 $("#planeradBehandling").val("Mer krämer.");
+
+$("#sjukskrivningar-HELT_NEDSATT-from").val(todayDateString).change();
+$("#sjukskrivningar-HELT_NEDSATT-tom").val(week).change();
 
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
 $("#arbetsresorNo").prop("checked", true).trigger("click");
