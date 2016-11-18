@@ -1,6 +1,6 @@
 var today = new Date();
 var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
-var week = todayDateString + 7;
+var week = todayDateString +7;
 
 
 function createEnterEvent() {
@@ -60,25 +60,24 @@ $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
 $("#planeradBehandling").val("Mer krämer.");
-
 $("#sjukskrivningar-HELT_NEDSATT-from").val(todayDateString).change();
 $("#sjukskrivningar-HELT_NEDSATT-tom").val(week).change();
-
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
-$("#arbetsresorNo").prop("checked", true).trigger("click");
-$("#formagaTrotsBegransning").val("Inte mycket.");
-$("#prognos\\.typ-5").prop("checked", true).trigger("click");
-$("#prognos\\.dagarTillArbete-4").prop("checked", true).trigger("click");
-$("#arbetslivsinriktadeAtgarder-2").click();
-$("#arbetslivsinriktadeAtgarder-3").click();
-$("#arbetslivsinriktadeAtgarder-4").click();
-$("#arbetslivsinriktadeAtgarder-5").click();
-$("#arbetslivsinriktadeAtgarder-6").click();
-$("#arbetslivsinriktadeAtgarder-7").click();
-$("#arbetslivsinriktadeAtgarder-8").click();
-$("#arbetslivsinriktadeAtgarder-9").click();
-$("#arbetslivsinriktadeAtgarder-10").click();
-$("#arbetslivsinriktadeAtgarder-11").click();
+$("#arbetsresorYes").prop("checked", true).trigger("click");
+$("input[id*='-ATER_X_ANTAL_DGR']").prop("checked", true).trigger("click");
+$("#prognosDagarTillArbete-3-typ > div.ui-select-match > span").click();
+$("[id$=-3]").click();           
+$("#arbetslivsinriktadeAtgarder-ARBETSTRANING").click();
+$("#arbetslivsinriktadeAtgarderBeskrivning").val("Träna på att arbeta.").change();
+$("#arbetslivsinriktadeAtgarder-ARBETSANPASSNING").click();
+$("#arbetslivsinriktadeAtgarder-SOKA_NYTT_ARBETE").click();
+$("#arbetslivsinriktadeAtgarder-BESOK_ARBETSPLATS").click();
+$("#arbetslivsinriktadeAtgarder-ERGONOMISK").click();
+$("#arbetslivsinriktadeAtgarder-HJALPMEDEL").click();
+$("#arbetslivsinriktadeAtgarder-KONFLIKTHANTERING").click();
+$("#arbetslivsinriktadeAtgarder-KONTAKT_FHV").click();
+$("#arbetslivsinriktadeAtgarder-OMFORDELNING").click();
+$("#arbetslivsinriktadeAtgarder-OVRIGA_ATGARDER").click();
 $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hjälp med allt.").change();
 $("#ovrigt").val("Allt är sagt.").change();
 $("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
