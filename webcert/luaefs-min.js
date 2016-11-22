@@ -40,11 +40,11 @@ var checkForElement1 = setInterval(function() {
         $("li[id*='option-0']").click();
         firstFound = true;
     }
-    if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
+    /*if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
         $("#laggTillDiagnos").click().blur();
         $("#diagnoseCode-1").val('F000').change();
         clearInterval(checkForElement1);
-    }
+    }*/
 }, 1000);
 /*
 var secondFound = false;
