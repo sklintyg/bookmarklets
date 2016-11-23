@@ -8,6 +8,31 @@ $("#pnr").val("19710301-1032").change();
 $("#skapapersonnummerfortsatt").click();
 
 
+$("#intygType").val('string:fk7263').change();
+
+
+$("#intygType").click();
+$("[id$=Läkarintyg FK 7263]").click();
+
+
+$("#underlag-1-typ > div.ui-select-match > span").click();
+$("[id$=-3]").click();
+$("#underlag-1-typ").val('string:LOGOPED').change();
+$("#underlag-1-datum").val(todayDateString).change();
+$("#underlag-1-hamtasFran").val('CSK').change();
+
+$("#underlag-2-typ > div.ui-select-match > span").click();
+$("[id$=-4]").click();
+$("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
+$("#underlag-2-datum").val(todayDateString).change();
+$("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
+
+
+
+
+<
+option label = "Läkarintyg FK 7263"
+value = "string:fk7263" > Läkarintyg FK 7263 < /option>
 
 $("input[id*='basedOnExamination']").click();
 $("input[id*='basedOnPhoneContact']").click();
