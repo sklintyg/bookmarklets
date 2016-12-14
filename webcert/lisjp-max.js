@@ -59,7 +59,7 @@ var checkForElement3 = setInterval(function() {
 $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
-$("#planeradBehandling").val("Mer krämer.");
+$("#planeradBehandling").val("Mer krämer.").change();
 $("#sjukskrivningar-HELT_NEDSATT-from").val(todayDateString).change();
 $("#sjukskrivningar-HELT_NEDSATT-tom").val(week).change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
