@@ -1,7 +1,14 @@
 var today = new Date();
-var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
-var week = todayDateString +7;
+//var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
+//var week = todayDateString + 7;
 
+function createDateString(today, daysToAdd) {
+	if(daysToAdd) {
+		today.setDate(new Date().getDate() + daysToAdd);
+	}
+	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
+	return todayDateString;
+}
 
 function createEnterEvent() {
 	var e = jQuery.Event("keydown");
@@ -61,14 +68,14 @@ $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
 $("#planeradBehandling").val("Mer krämer.").change();
 $("input[id*='_sjukskrivningar_sjukskrivningar_']").val("40").change();
-$("#sjukskrivningar-EN_FJARDEDEL-from").val(todayDateString).change();
-$("#sjukskrivningar-EN_FJARDEDEL-tom").val(week).change();
-$("#sjukskrivningar-HALFTEN-from").val(todayDateString).change();
-$("#sjukskrivningar-HALFTEN-tom").val(todayDateString).change();
-$("#sjukskrivningar-TRE_FJARDEDEL-from").val(todayDateString).change();
-$("#sjukskrivningar-TRE_FJARDEDEL-tom").val(todayDateString).change();
-$("#sjukskrivningar-HELT_NEDSATT-from").val(todayDateString).change();
-$("#sjukskrivningar-HELT_NEDSATT-tom").val(week).change();
+$("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
+$("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
+$("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
+$("#sjukskrivningar-HALFTEN-tom").val(createDateString(today, 11)).change();
+$("#sjukskrivningar-TRE_FJARDEDEL-from").val(createDateString(today, 12)).change();
+$("#sjukskrivningar-TRE_FJARDEDEL-tom").val(createDateString(today, 17)).change();
+$("#sjukskrivningar-HELT_NEDSATT-from").val(createDateString(today, 18)).change();
+$("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 23)).change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
 $("#arbetstidsforlaggningNo").prop("checked", true).trigger("click");
 $("#arbetsresorYes").prop("checked", true).trigger("click");
