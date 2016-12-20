@@ -1,6 +1,4 @@
 var today = new Date();
-//var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2)  + '-' + ('0' + today.getDate()).slice(-2);
-//var week = todayDateString + 7;
 
 function createDateString(today, daysToAdd) {
 	if(daysToAdd) {
