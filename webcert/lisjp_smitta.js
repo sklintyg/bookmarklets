@@ -52,3 +52,4 @@ $("#sjukskrivningar-TRE_FJARDEDEL-from").val(createDateString(today, 12)).change
 $("#sjukskrivningar-TRE_FJARDEDEL-tom").val(createDateString(today, 17)).change();
 $("#sjukskrivningar-HELT_NEDSATT-from").val(createDateString(today, 18)).change();
 $("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 23)).change();
+$("#ovrigt").val("Allt klart! Försvinn!").change();
