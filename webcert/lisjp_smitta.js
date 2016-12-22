@@ -41,7 +41,6 @@ var checkForElement3 = setInterval(function() {
       clearInterval(checkForElement3);
    }
 }, 1000);
-
 $("input[id*='_avstangningSmittskydd_0']").click();
 $("input[id*='_sjukskrivningar_sjukskrivningar_']").val("40").change();
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
