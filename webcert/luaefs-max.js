@@ -55,14 +55,14 @@ var checkForElement2 = setInterval(function() {
    }
 	 if ($("li[id*='option-0']").children("a:contains('F000')").length === 0 && secondFound === true) {
 		 $("#laggTillDiagnos").click().blur();
-		 $("#diagnoseCode-2").val('G000').change();
+		 $("#diagnoseCode-2").val('M659B').change();
 		 clearInterval(checkForElement2);
 	 }
 }, 1000);
 
 var checkForElement3 = setInterval(function() {
-   if ($("li[id*='option-0']").children("a:contains('G000')").length) {
-			$("li[id*='option-0']").children("a:contains('G000')").click();
+   if ($("li[id*='option-0']").children("a:contains('M659B')").length) {
+			$("li[id*='option-0']").children("a:contains('M659B')").click();
       clearInterval(checkForElement3);
    }
 }, 1000);
