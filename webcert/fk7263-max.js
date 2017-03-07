@@ -49,7 +49,7 @@ $("arbeteNuvarande").click().blur();
 $("#currentWork").val("Soffgrupptestare").change();
 $("#arbeteArbetslos").click();
 $("#arbeteForaldraledig").click().blur();
-$("#capacityForWorkActualWorkingHoursPerWeek").val("40").change();
+$("#capacityForWorkActualWorkingHoursPerWeek").val("36.5").change();
 $("#nedsattMed25").click();
 $("#nedsattMed25beskrivning").val("Någon slags text.").change();
 $("#nedsattMed50").click();
