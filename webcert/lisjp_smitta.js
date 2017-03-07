@@ -42,7 +42,7 @@ var checkForElement3 = setInterval(function() {
    }
 }, 1000);
 $("input[id*='_avstangningSmittskydd_0']").click();
-$("input[id*='_sjukskrivningar_sjukskrivningar_']").val("40").change();
+$("input[id*='_sjukskrivningar_sjukskrivningar_']").val("38.5").change();
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
 $("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
 $("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
