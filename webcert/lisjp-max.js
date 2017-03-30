@@ -96,4 +96,4 @@ $("#ovrigt").val("Allt är sagt.").change();
 $("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
 $("#anledningTillKontakt").val("Därför.").change();
 $("textarea[id*='tillaggsfragor[0]']").val("Det kan diskuteras.").change();
-$("textarea[id*='tillaggsfragor[1]')").val("Det beror på.").change();
+$("textarea[id*='tillaggsfragor[1]']").val("Jag gillar mer den sneda sorten.").change();
