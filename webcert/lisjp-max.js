@@ -95,4 +95,5 @@ $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hj�
 $("#ovrigt").val("Allt är sagt.").change();
 $("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
 $("#anledningTillKontakt").val("Därför.").change();
-$("#tillaggsfragor[0]\\.svar").val("test").change();
+$("textarea[id*='tillaggsfragor[0]']").val("Det kan diskuteras.").change();
+$("textarea[id*='tillaggsfragor[1]')").val("Det beror på.").change();
