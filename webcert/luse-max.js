@@ -38,11 +38,11 @@ $("#diagnoseCode-0").val('S48').change();
 
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
-	if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
+	if ($("li[id*='option-0']").children("a:contains('S48')").length && firstFound === false) {
     	$("li[id*='option-0']").click();
 			firstFound = true;
 	}
-	 if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
+	 if ($("li[id*='option-0']").children("a:contains('S48')").length === 0 && firstFound === true) {
 		 $("#laggTillDiagnos").click().blur();
 		 $("#diagnoseCode-1").val('F205').change();
 		 clearInterval(checkForElement1);
