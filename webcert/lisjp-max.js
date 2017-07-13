@@ -24,7 +24,6 @@ $("#nuvarandeArbete").val("Blomplockare").change();
 $("#sysselsattning-ARBETSSOKANDE").click();
 $("#sysselsattning-FORALDRALEDIG").click();
 $("#sysselsattning-STUDIER").click();
-$("#sysselsattning-PROGRAM").click();
 $("#arbetsmarknadspolitisktProgram").val("Plantskole rektor").change();
 
 $("#diagnoseCode-0").val('S47').change();
@@ -73,10 +72,38 @@ $("#sjukskrivningar-HALFTEN-tom").val(createDateString(today, 11)).change();
 $("#sjukskrivningar-TRE_FJARDEDEL-from").val(createDateString(today, 12)).change();
 $("#sjukskrivningar-TRE_FJARDEDEL-tom").val(createDateString(today, 17)).change();
 $("#sjukskrivningar-HELT_NEDSATT-from").val(createDateString(today, 18)).change();
-$("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 23)).change();
+$("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 366)).change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
-$("#arbetstidsforlaggningNo").prop("checked", true).trigger("click");
-$("#arbetsresorYes").prop("checked", true).trigger("click");
+$("#arbetstidsforlaggningYes").prop("checked", true).trigger("click");
+$("#arbetstidsforlaggningMotivering").val("En massa text En massa text En massa text En massa text En massa text.     
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.   
+	En massa text En massa text En massa text En massa text En massa text.     En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa textEn massa text En massa text En massa text En massa text En massa text.     
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
+	En massa text En massa text En massa text En massa text En massa text.").change();
+$("input[id*='_arbetsresor_4']").click();
 $("input[id*='-ATER_X_ANTAL_DGR']").prop("checked", true).trigger("click");
 $("#prognosDagarTillArbete-1-typ > div.ui-select-match > span > span.ui-select-match-text.pull-left > span").click();
 $("[id$=-3]").click();  

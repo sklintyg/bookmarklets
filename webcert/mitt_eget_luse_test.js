@@ -4,6 +4,8 @@ var text1 = "Läkarintyg FK 7263"
 
 $("#pnr").val("195201282232").change();
 $("#skapapersonnummerfortsatt").click().blur();
+$('select[name="intygType"]').val('string:luae_fs');
+
 $('#intygType > option').each(function() {
 	this.attr('selected', 'selected');
 	console.log(this);
