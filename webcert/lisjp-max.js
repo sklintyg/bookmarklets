@@ -73,6 +73,7 @@ $("#sjukskrivningar-TRE_FJARDEDEL-from").val(createDateString(today, 12)).change
 $("#sjukskrivningar-TRE_FJARDEDEL-tom").val(createDateString(today, 17)).change();
 $("#sjukskrivningar-HELT_NEDSATT-from").val(createDateString(today, 18)).change();
 $("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 366)).change();
+$("#motiveringTillForLangSjukskrivning").val("Varför inte?").change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
 $("#arbetstidsforlaggningYes").prop("checked", true).trigger("click");
 $("#arbetstidsforlaggningMotivering").val("En massa text En massa text En massa text En massa text En massa text.     
