@@ -34,15 +34,15 @@ $("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
 $("#underlag-2-datum").val(todayDateString).change();
 $("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
 
-$("#diagnoseCode-0").val('S480').change();
+$("#diagnoseCode-0").val('S47').change();
 
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
-	if ($("li[id*='option-0']").children("a:contains('S480')").length && firstFound === false) {
+	if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
     	$("li[id*='option-0']").click();
 			firstFound = true;
 	}
-	 if ($("li[id*='option-0']").children("a:contains('S480')").length === 0 && firstFound === true) {
+	 if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
 		 $("#laggTillDiagnos").click().blur();
 		 $("#diagnoseCode-1").val('F205').change();
 		 clearInterval(checkForElement1);
