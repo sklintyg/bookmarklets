@@ -94,7 +94,7 @@ $("#arbetstidsforlaggningMotivering").val("En massa text En massa text En massa 
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa textEn massa text En massa text En massa text En massa text En massa text.     
+	En massa text En massa text En massa text En massa text En massa text     En massa text En massa text En massa text En massa text En massa text.     
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
 	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
