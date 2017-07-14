@@ -1,4 +1,4 @@
-$('#smittskydd').trigger("click").blur();
+$("#smittskydd").click();
 $("#capacityForWorkActualWorkingHoursPerWeek").val("38,5").change();
 $("#nedsattMed50").click();
 $("#capacityForWorkText").val("Sjukare än vi först trodde.");
