@@ -76,34 +76,7 @@ $("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 366)).change(
 $("#motiveringTillForLangSjukskrivning").val("Varför inte?").change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
 $("#arbetstidsforlaggningYes").prop("checked", true).trigger("click");
-$("#arbetstidsforlaggningMotivering").val("En massa text En massa text En massa text En massa text En massa text.     
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.   
-	En massa text En massa text En massa text En massa text En massa text.     En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text     En massa text En massa text En massa text En massa text En massa text.     
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.    En massa text En massa text En massa text En massa text En massa text.    
-	En massa text En massa text En massa text En massa text En massa text.").change();
+$("#arbetstidsforlaggningMotivering").val("HejHejHej").change();
 $("input[id*='_arbetsresor_4']").click();
 $("input[id*='-ATER_X_ANTAL_DGR']").prop("checked", true).trigger("click");
 $("#prognosDagarTillArbete-1-typ > div.ui-select-match > span > span.ui-select-match-text.pull-left > span").click();
