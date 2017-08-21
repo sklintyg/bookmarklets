@@ -36,18 +36,18 @@ var checkForElement1 = setInterval(function() {
    }
 	 if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
 		 $("#laggTillDiagnos").click().blur();
-		 $("#diagnoseCode-1").val('F000').change();
+		 $("#diagnoseCode-1").val('Y1113').change();
 		 clearInterval(checkForElement1);
 	 }
 }, 1000);
 
 var secondFound = false;
 var checkForElement2 = setInterval(function() {
-   if ($("li[id*='option-0']").children("a:contains('F000')").length && secondFound === false) {
+   if ($("li[id*='option-0']").children("a:contains('Y1113')").length && secondFound === false) {
 			$("li[id*='option-0']").click();
 			secondFound = true;
    }
-	 if ($("li[id*='option-0']").children("a:contains('F000')").length === 0 && secondFound === true) {
+	 if ($("li[id*='option-0']").children("a:contains('Y1113')").length === 0 && secondFound === true) {
 		 $("#laggTillDiagnos").click().blur();
 		 $("#diagnoseCode-2").val('M659B').change();
 		 clearInterval(checkForElement2);
