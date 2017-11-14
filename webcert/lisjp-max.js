@@ -95,8 +95,44 @@ $("#arbetslivsinriktadeAtgarder-KONTAKT_FHV").click();
 $("#arbetslivsinriktadeAtgarder-OMFORDELNING").click();
 $("#arbetslivsinriktadeAtgarder-OVRIGA_ATGARDER").click();
 $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hjälp med allt.").change();
-$("#ovrigt").val("Allt är sagt.").change();
+$("#ovrigt").val(`Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en.`).change();
 $("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
 $("#anledningTillKontakt").val("Därför.").change();
-$("textarea[id*='tillaggsfragor[0]']").val("Det kan diskuteras.").change();
-$("textarea[id*='tillaggsfragor[1]']").val("Jag gillar mer den sneda sorten.").change();
