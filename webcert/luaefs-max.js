@@ -13,7 +13,7 @@ $("input[id*='_date_journaluppgifter_']").click();
 $("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
 $("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
-$("#form_kannedomOmPatient > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > input:nth-child(1)").val(todayDateString).change();
+$("#datepicker_kannedomOmPatient").val("1905-02-21").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
 
 $("#underlag-0-typ > div.ui-select-match > span").click();
@@ -66,7 +66,45 @@ var checkForElement3 = setInterval(function() {
       clearInterval(checkForElement3);
    }
 }, 1000);
-$("#funktionsnedsattningDebut").val("Utvecklades i tonåren, har svårt att säga nej.").change();
+$("#funktionsnedsattningDebut").val(`Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text.Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en.`).change();
 $("#funktionsnedsattningPaverkan").val("Patienten gör pga av sitt problem alldeles för mycket läxor.").change();
 $("#ovrigt").val("Inget Övrigt.");
 $("input[id*='kontaktMedFk']").click();
