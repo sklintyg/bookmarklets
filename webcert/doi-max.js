@@ -5,7 +5,7 @@ var ddMarker = "";
 $("#identitetStyrkt").val("Anhörig").change();
 $("#land").val("Mordor").change();
 $("#dodsdatumSakertNo").prop("checked", true).trigger("click");
-$("#dodsdatum-year").val("0000").change();
+$("#dodsdatum-year").val("2017").change();
 $("#dodsdatum-month").val("00").change();
 $("#dodsdatum-day").val("00").change();
 $("#form_antraffatDodDatum > div > div:nth-child(2) > span > span > input").val(todayDateString).change();
