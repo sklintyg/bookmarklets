@@ -103,7 +103,11 @@ $("#operationAnledning").val("Det behövdes").change();
 $("#forgiftningYes").prop("checked", true).trigger("click");
 $("#forgiftningOrsak-OKLART").prop("checked", true).trigger("click");
 $("#form_forgiftningDatum > div > div:nth-child(2) > span > span > input").val(todayDateString).change();
-$("#forgiftningUppkommelse").val("En jättebra text om nånting allvarligt").change();
+$("#forgiftningUppkommelse").val(`Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+Detta blir en lång.`).change();
 $("#grunder-UNDERSOKNING_FORE_DODEN").click();
 $("#grunder-UNDERSOKNING_EFTER_DODEN").click();
 $("#grunder-KLINISK_OBDUKTION").click();
