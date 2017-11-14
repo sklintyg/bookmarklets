@@ -69,7 +69,7 @@ var checkForElement3 = setInterval(function() {
       clearInterval(checkForElement3);
    }
 }, 1000);
-$("#diagnosgrund").val("Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
+$("#diagnosgrund").val(`Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
@@ -105,7 +105,7 @@ Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. De
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
 Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. Detta blir en lång text. 
-Detta blir en ").change();
+Detta blir en `).change();
 $("#nyBedomningDiagnosgrundYes").prop("checked", true);
 $("#nyBedomningDiagnosgrundYes").click();
 $("#diagnosForNyBedomning").val("alla och ingen.").change();
