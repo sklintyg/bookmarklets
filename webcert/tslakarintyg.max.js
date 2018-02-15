@@ -42,7 +42,7 @@ $("#medvetandestorning-medvetandestorningYes").prop("checked", true).trigger("cl
 $("#medvetandestorning-beskrivning").val("26/6 för mycket TV-spel").change();
 $("#njurar-nedsattNjurfunktionYes").prop("checked", true).trigger("click");
 $("#kognitivt-sviktandeKognitivFunktionNo").prop("checked", true).trigger("click");
-$("#somnvakenhetForm > span:nth-child(2) > span:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > input:nth-child(1)").prop("checked", true).trigger("click");
+$("#somnVakenhet-teckenSomnstorningarYes").prop("checked", true).trigger("click");
 $("#narkotikaLakemedel-teckenMissbrukYes").prop("checked", true).trigger("click");
 $("#narkotikaLakemedel-foremalForVardinsatsYes").prop("checked", true).trigger("click");
 $("#narkotikaLakemedel-provtagningBehovsYes").prop("checked", true).trigger("click");
