@@ -14,10 +14,10 @@ function createEnterEvent() {
 	return e;
 }
 
-$("input[id*='date_undersokningAvPatienten_']").click();
-$("input[id*='_date_journaluppgifter_']").click();
-$("input[id*='_date_telefonkontaktMedPatienten_']").click();
-$("input[id*='_date_annatGrundForMU_']").click();
+$("#checkbox_undersokningAvPatienten").click();
+$("#checkbox_telefonkontaktMedPatienten").click();
+$("#checkbox_journaluppgifter").click();
+$("#checkbox_annatGrundForMU").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
 $("#sysselsattning-NUVARANDE_ARBETE").click();
 $("#nuvarandeArbete").val("Blomplockare").change();
