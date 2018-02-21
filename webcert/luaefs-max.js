@@ -7,11 +7,10 @@ function createEnterEvent() {
 	return e;
 }
 
-
-$("input[id*='date_undersokningAvPatienten_']").click();
-$("input[id*='_date_journaluppgifter_']").click();
-$("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
-$("input[id*='_date_annatGrundForMU_']").click();
+$("#checkbox_undersokningAvPatienten").click();
+$("#checkbox_journaluppgifter").click();
+$("#checkbox_anhorigsBeskrivningAvPatienten").click();
+$("#checkbox_annatGrundForMU").click();
 $("#annatGrundForMUBeskrivning").val("En vÃ¤ldigt stark magkÃ¤nsla").change();
 $("#datepicker_kannedomOmPatient").val("1905-02-21").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
