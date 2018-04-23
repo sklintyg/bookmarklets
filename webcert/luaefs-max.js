@@ -11,14 +11,14 @@ $("#checkbox_undersokningAvPatienten").click();
 $("#checkbox_journaluppgifter").click();
 $("#checkbox_anhorigsBeskrivningAvPatienten").click();
 $("#checkbox_annatGrundForMU").click();
-$("#annatGrundForMUBeskrivning").val("En vÃ¤ldigt stark magkÃ¤nsla").change();
+$("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
 $("#datepicker_kannedomOmPatient").val("1905-02-21").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
 
 $("#underlag-0-typ > div.ui-select-match > span").click();
 $("[id$=-2]").click();
 $("#underlag-0-datum").val(todayDateString).change();
-$("#underlag-0-hamtasFran").val('VÃ¥rdcentralen Smultronet').change();
+$("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
 
 $("#underlag-1-typ > div.ui-select-match > span").click();
 $("[id$=-3]").click();
@@ -66,11 +66,11 @@ var checkForElement3 = setInterval(function() {
 	}
 }, 1000);
 $("#funktionsnedsattningDebut").val('Detta blir en kort text. Detta blir en kort text.').change();
-$("#funktionsnedsattningPaverkan").val("Patienten gÃ¶r pga av sitt problem alldeles fÃ¶r mycket lÃ¤xor.").change();
-$("#ovrigt").val("Inget Ã–vrigt.");
+$("#funktionsnedsattningPaverkan").val("Patienten gör pga av sitt problem alldeles för mycket läxor.").change();
+$("#ovrigt").val("Inget övrigt.");
 $("input[id*='kontaktMedFk']").click();
 $("#anledningTillKontakt").val("Nej.").change();
 
 
-$("textarea[id*='tillaggsfragor[0]']").val("JÃ¤tte.").change();
-$("textarea[id*='tillaggsfragor[1]']").val("TillrÃ¤ckligt.").change();
+$("textarea[id*='tillaggsfragor[0]']").val("Jätte.").change();
+$("textarea[id*='tillaggsfragor[1]']").val("Tillräckligt.").change();
