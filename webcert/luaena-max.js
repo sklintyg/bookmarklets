@@ -22,19 +22,19 @@ $("input[id*='date_undersokningAvPatienten_']").click();
 $("input[id*='_date_journaluppgifter_']").click();
 $("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
 $("input[id*='_date_annatGrundForMU_']").click();
-$("#annatGrundForMUBeskrivning").val("En vÃ¤ldigt stark magkÃ¤nsla").change();
+$("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
 $("#datepicker_kannedomOmPatient").val("1905-06-12").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
 
 $("#underlag-0-typ > div.ui-select-match > span").click();
 selectInDropdown('#underlag-0-typ', 1);
 $("#underlag-0-datum").val(todayDateString).change();
-$("#underlag-0-hamtasFran").val('VÃ¥rdcentralen Smultronet').change();
+$("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
 
 $("#underlag-1-typ > div.ui-select-match > span").click();
 selectInDropdown('#underlag-1-typ', 3);
 $("#underlag-1-datum").val(todayDateString).change();
-$("#underlag-1-hamtasFran").val('VÃ¥rdcentralen Svanen').change();
+$("#underlag-1-hamtasFran").val('Vårdcentralen Svanen').change();
 
 $("#underlag-2-typ > div.ui-select-match > span").click();
 selectInDropdown('#underlag-2-typ', 5);
@@ -74,7 +74,7 @@ var checkForElement3 = setInterval(function() {
 		clearInterval(checkForElement3);
 	}
 }, 1000);
-$("#diagnosgrund").val("I tidernas begynnelse stÃ¤lldes diagnosen fÃ¶r patienten pÃ¥ Sahlgrenska").change();
+$("#diagnosgrund").val("I tidernas begynnelse ställdes diagnosen för patienten på Sahlgrenska").change();
 $("#nyBedomningDiagnosgrundYes").prop("checked", true);
 $("#nyBedomningDiagnosgrundYes").click();
 $("#diagnosForNyBedomning").val("G000").change();
@@ -88,14 +88,14 @@ $("input[id*='_funktionsnedsattningSynHorselTal_']").click();
 $("input[id*='_funktionsnedsattningBalansKoordination_']").click();
 $("input[id*='_funktionsnedsattningAnnan_']").click();
 
-$("#aktivitetsbegransning").val("Patienten kan inte rÃ¤cka upp armen.").change();
-$("#avslutadBehandling").val("RheabtrÃ¤ning").change();
-$("#pagaendeBehandling").val("SmÃ¤rtlindring och akupunktur").change();
-$("#planeradBehandling").val("FÃ¶r tidigt att sÃ¤ga nÃ¥got.").change();
+$("#aktivitetsbegransning").val("Patienten kan inte räcka upp armen.").change();
+$("#avslutadBehandling").val("Rheabträning").change();
+$("#pagaendeBehandling").val("Smärtlindring och akupunktur").change();
+$("#planeradBehandling").val("För tidigt att säga något.").change();
 
-$("#substansintag").val("SmÃ¤rtlindring").change();
-$("#medicinskaForutsattningarForArbete").val("RehabtrÃ¤ning.").change();
-$("#formagaTrotsBegransning").val("Laga mat gÃ¥r bra.").change();
+$("#substansintag").val("Smärtlindring").change();
+$("#medicinskaForutsattningarForArbete").val("Rehabträning.").change();
+$("#formagaTrotsBegransning").val("Laga mat går bra.").change();
 $("#forslagTillAtgard").val("En bra planering.").change();
 
 
@@ -104,7 +104,7 @@ $("#funktionsnedsattningKommunikation").val("abc").change();
 $("#funktionsnedsattningKoncentration").val("abc").change();
 $("#funktionsnedsattningPsykisk").val("abc").change();
 $("#funktionsnedsattningSynHorselTal").val("abc").change();
-$("#funktionsnedsattningBalansKoordination").val("Det gÃ¶r ont").change();
+$("#funktionsnedsattningBalansKoordination").val("Det gör ont").change();
 $("#funktionsnedsattningAnnan").val("abc").change();
 
 $("input[id*='_avslutadBehandling_']").click();
@@ -112,7 +112,7 @@ $("input[id*='_pagaendeBehandling_']").click();
 $("input[id*='_planeradBehandling_']").click();
 $("input[id*='_substansintag_']").click();
 
-$("#ovrigt").val("Mycket material Ã¤r hemligstÃ¤mplat").change();
+$("#ovrigt").val("Mycket material är hemligstämplat").change();
 
 $("input[id*='kontaktMedFk']").click();
-$("#anledningTillKontakt").val("Jag har hemligt material pÃ¥ mitt skrivbord som kan vara intressant fÃ¶r er").change();
+$("#anledningTillKontakt").val("Jag har hemligt material pÃ¥ mitt skrivbord som kan vara intressant för er").change();
