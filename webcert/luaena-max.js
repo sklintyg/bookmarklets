@@ -86,7 +86,7 @@ $("#toggle-funktionsnedsattningBalansKoordination").click();
 $("#toggle-funktionsnedsattningAnnan").click();
 
 $("#aktivitetsbegransning").val("Patienten kan inte räcka upp armen.").change();
-$("#avslutadBehandling").val("RheabtrÃ¤ning").change();
+$("#avslutadBehandling").val("Rehabträning").change();
 $("#pagaendeBehandling").val("Smärtlindring och akupunktur").change();
 $("#planeradBehandling").val("För tidigt att säga något.").change();
 
