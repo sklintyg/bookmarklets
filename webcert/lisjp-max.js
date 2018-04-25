@@ -63,8 +63,10 @@ var checkForElement3 = setInterval(function() {
 $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
-$("#planeradBehandling").val("Mer krÃ¤mer.").change();
-$("input[id*='_sjukskrivningar_sjukskrivningar_']").val("35.5").change();
+$("#planeradBehandling").val("Mer krämer.").change();
+
+// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
+
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
 $("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
 $("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
@@ -77,11 +79,11 @@ $("#motiveringTillForLangSjukskrivning").val("Varför inte?").change();
 $("#forsakringsmedicinsktBeslutsstod").val("Det krävdes mer kräm.").change();
 $("#arbetstidsforlaggningYes").prop("checked", true).trigger("click");
 $("#arbetstidsforlaggningMotivering").val("HejHejHej").change();
-$("input[id*='_arbetsresor_0']").click();
+$("#arbetsresor").click();
 $("#checkbox").prop("checked", true);
 $("input[id*='_arbetsresor_4']").click();
 $("input[id*='-ATER_X_ANTAL_DGR']").prop("checked", true).trigger("click");
-$("#prognosDagarTillArbete-1-typ > div.ui-select-match > span > span.ui-select-match-text.pull-left > span").click();
+$("#prognosDagarTillArbete-1-typ-NITTIO_DGR").click();
 $("[id$=-3]").click();
 $("#arbetslivsinriktadeAtgarder-ARBETSTRANING").click();
 $("#arbetslivsinriktadeAtgarderBeskrivning").val("Träna på att arbeta.").change();
@@ -96,5 +98,6 @@ $("#arbetslivsinriktadeAtgarder-OMFORDELNING").click();
 $("#arbetslivsinriktadeAtgarder-OVRIGA_ATGARDER").click();
 $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hjälp med allt.").change();
 $("#ovrigt").val('Detta blir en kort text.').change();
-$("input[id*='_checkbox-inline_kontaktMedFk_0']").click();
-$("#anledningTillKontakt").val("Därför.").change();
+$("#kontaktMedFk").click();
+$("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbergs lila").change();
+
