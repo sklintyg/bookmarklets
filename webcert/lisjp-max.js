@@ -65,8 +65,6 @@ $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
 $("#planeradBehandling").val("Mer krämer.").change();
 
-// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
-
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
 $("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
 $("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
@@ -101,3 +99,5 @@ $("#ovrigt").val('Detta blir en kort text.').change();
 $("#kontaktMedFk").click();
 $("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbergs lila").change();
 
+
+// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
