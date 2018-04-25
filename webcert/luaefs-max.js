@@ -15,22 +15,19 @@ $("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
 $("#datepicker_kannedomOmPatient").val("1905-02-21").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
 
-$("#underlag-0-typ > div.ui-select-match > span").click();
-$("[id$=-2]").click();
-$("#underlag-0-datum").val(todayDateString).change();
-$("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
+$("#underlag-0--typ-HABILITERING").click();
+$("#datepicker_underlag\\[0\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-0--hamtasFran").val('Vårdcentralen Smultronet').change();
 
-$("#underlag-1-typ > div.ui-select-match > span").click();
-$("[id$=-3]").click();
-$("#underlag-1-typ").val('string:LOGOPED').change();
-$("#underlag-1-datum").val(todayDateString).change();
-$("#underlag-1-hamtasFran").val('CSK').change();
 
-$("#underlag-2-typ > div.ui-select-match > span").click();
-$("[id$=-4]").click();
-$("#underlag-2-typ").val('string:FYSIOTERAPEUT').change();
-$("#underlag-2-datum").val(todayDateString).change();
-$("#underlag-2-hamtasFran").val('CentralSjukhuset!!').change();
+$("#underlag-1--typ-LOGOPED").click();
+$("#datepicker_underlag\\[1\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-1--hamtasFran").val('CSK').change();
+
+
+$("#underlag-2--typ-FYSIOTERAPEUT").click();
+$("#datepicker_underlag\\[2\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-2--hamtasFran").val('CentralSjukhuset!!').change();
 
 $("#diagnoseCode-0").val('S47').change();
 var firstFound = false;
