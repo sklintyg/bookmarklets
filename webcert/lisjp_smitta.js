@@ -41,8 +41,9 @@ var checkForElement3 = setInterval(function() {
       clearInterval(checkForElement3);
    }
 }, 1000);
-$("input[id*='_avstangningSmittskydd_0']").click();
-$("input[id*='_sjukskrivningar_sjukskrivningar_']").val("38.5").change();
+
+$("#avstangningSmittskydd").click();
+
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
 $("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
 $("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
@@ -52,3 +53,5 @@ $("#sjukskrivningar-TRE_FJARDEDEL-tom").val(createDateString(today, 17)).change(
 $("#sjukskrivningar-HELT_NEDSATT-from").val(createDateString(today, 18)).change();
 $("#sjukskrivningar-HELT_NEDSATT-tom").val(createDateString(today, 23)).change();
 $("#ovrigt").val("Allt klart! Försvinn!").change();
+
+// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
