@@ -24,6 +24,9 @@ $("#diabetes-insulinBehandlingsperiod").val("2015").change();
 $("#diabetes-annanBehandlingBeskrivning").val("1abcåäö--10ABCÅÄÖ--20 --------30-------40").change();
 $("#hypoglykemier-kunskapOmAtgarderNo").click();
 $("#hypoglykemier-teckenNedsattHjarnfunktionYes").click();
+$("#hypoglykemier-egenkontrollBlodsockerNo").click();
+$("#hypoglykemier-allvarligForekomstVakenTidYes").prop("checked",true).trigger("click");
+$("#datepicker_hypoglykemier.allvarligForekomstVakenTidObservationstid".replace(".","\\.")).val("2018-04-20").change();  //bort med punkter i id
 $("#hypoglykemier-saknarFormagaKannaVarningsteckenYes").click();
 $("#hypoglykemier-allvarligForekomstYes").click();
 $("#hypoglykemier-allvarligForekomstBeskrivning").val("1abcåäö--10ABCÅÄÖ--20- -------30-------40").change();
@@ -54,5 +57,6 @@ $("#bedomning-D1E").click();
 $("#bedomning-D").click();
 $("#bedomning-DE").click();
 $("#bedomning-TAXI").click();
+$("#bedomning-lamplighetInnehaBehorighetYes").click();
 $("#kommentar").val("1abcåäö--10ABCÅÄÖ --20--------30-------40").change();
 $("#bedomning-lakareSpecialKompetens").val("1abcåäö--10ABCÅÄ Ö--20--------30-------40").change();
