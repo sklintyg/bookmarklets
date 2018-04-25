@@ -1,11 +1,11 @@
 var today = new Date();
 var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
 
-function createEnterEvent() {
-	var e = jQuery.Event("keydown");
-	e.which = 13;
-	return e;
-}
+// function createEnterEvent() {
+	// var e = jQuery.Event("keydown");
+	// e.which = 13;
+	// return e;
+// }
 
 function selectInDropdown(id, index) {
 	$(id + " > ul > li > div").each(function() {
@@ -18,28 +18,25 @@ function selectInDropdown(id, index) {
 	});
 }
 
-$("input[id*='date_undersokningAvPatienten_']").click();
-$("input[id*='_date_journaluppgifter_']").click();
-$("input[id*='_date_anhorigsBeskrivningAvPatienten_']").click();
-$("input[id*='_date_annatGrundForMU_']").click();
+$("#checkbox_undersokningAvPatienten").click();
+$("#checkbox_journaluppgifter").click();
+$("#checkbox_anhorigsBeskrivningAvPatienten").click();
+$("#checkbox_annatGrundForMU").click();
 $("#annatGrundForMUBeskrivning").val("En väldigt stark magkänsla").change();
 $("#datepicker_kannedomOmPatient").val("1905-06-12").change();
 $("#underlagFinnsYes").prop("checked", true).trigger("click");
 
-$("#underlag-0-typ > div.ui-select-match > span").click();
-selectInDropdown('#underlag-0-typ', 1);
-$("#underlag-0-datum").val(todayDateString).change();
-$("#underlag-0-hamtasFran").val('Vårdcentralen Smultronet').change();
+$("#underlag-0--typ-NEUROPSYKIATRISKT").click();
+$("#datepicker_underlag\\[0\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-0--hamtasFran").val('Vårdcentralen Smultronet').change();
 
-$("#underlag-1-typ > div.ui-select-match > span").click();
-selectInDropdown('#underlag-1-typ', 3);
-$("#underlag-1-datum").val(todayDateString).change();
-$("#underlag-1-hamtasFran").val('Vårdcentralen Svanen').change();
+$("#underlag-1--typ-ARBETSTERAPEUT").click();
+$("#datepicker_underlag\\[1\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-1--hamtasFran").val('CSK').change();
 
-$("#underlag-2-typ > div.ui-select-match > span").click();
-selectInDropdown('#underlag-2-typ', 5);
-$("#underlag-2-datum").val(todayDateString).change();
-$("#underlag-2-hamtasFran").val('VC Jupiter').change();
+$("#underlag-2--typ-LOGOPED").click();
+$("#datepicker_underlag\\[2\\].datum".replace(".","\\.")).val(todayDateString).change(); // Bort med brackets och punkt i ID
+$("#underlag-2--hamtasFran").val('CentralSjukhuset!!').change();
 
 $("#diagnoseCode-0").val("S47").change();
 var firstFound = false;
@@ -80,16 +77,16 @@ $("#nyBedomningDiagnosgrundYes").click();
 $("#diagnosForNyBedomning").val("G000").change();
 $("#sjukdomsforlopp").val('Detta blir en kort text.').change();
 
-$("input[id*='_funktionsnedsattningIntellektuell_']").click();
-$("input[id*='_funktionsnedsattningKommunikation_']").click();
-$("input[id*='_funktionsnedsattningKoncentration_']").click();
-$("input[id*='_funktionsnedsattningPsykisk_']").click();
-$("input[id*='_funktionsnedsattningSynHorselTal_']").click();
-$("input[id*='_funktionsnedsattningBalansKoordination_']").click();
-$("input[id*='_funktionsnedsattningAnnan_']").click();
+$("#toggle-funktionsnedsattningIntellektuell").click();
+$("#toggle-funktionsnedsattningKommunikation").click();
+$("#toggle-funktionsnedsattningKoncentration").click();
+$("#toggle-funktionsnedsattningPsykisk").click();
+$("#toggle-funktionsnedsattningSynHorselTal").click();
+$("#toggle-funktionsnedsattningBalansKoordination").click();
+$("#toggle-funktionsnedsattningAnnan").click();
 
 $("#aktivitetsbegransning").val("Patienten kan inte räcka upp armen.").change();
-$("#avslutadBehandling").val("Rheabträning").change();
+$("#avslutadBehandling").val("RheabtrÃ¤ning").change();
 $("#pagaendeBehandling").val("Smärtlindring och akupunktur").change();
 $("#planeradBehandling").val("För tidigt att säga något.").change();
 
@@ -99,13 +96,13 @@ $("#formagaTrotsBegransning").val("Laga mat går bra.").change();
 $("#forslagTillAtgard").val("En bra planering.").change();
 
 
-$("#funktionsnedsattningIntellektuell").val("abc").change();
-$("#funktionsnedsattningKommunikation").val("abc").change();
-$("#funktionsnedsattningKoncentration").val("abc").change();
-$("#funktionsnedsattningPsykisk").val("abc").change();
-$("#funktionsnedsattningSynHorselTal").val("abc").change();
+$("#funktionsnedsattningIntellektuell").val("A living mummy stalks the beautiful woman he believes is the reincarnation of his lover.").change();
+$("#funktionsnedsattningKommunikation").val("When a young boy disappears, his mother, a police chief, and his friends, must confront terrifying forces in order to get him back.").change();
+$("#funktionsnedsattningKoncentration").val("The crew of a Royal Naval expedition searching for the Arctic's treacherous Northwest Passage discovers instead a monstrous predator.").change();
+$("#funktionsnedsattningPsykisk").val("Swedes travel to the Canary Islands on a package trip.").change();
+$("#funktionsnedsattningSynHorselTal").val("Vispa samman äggen med hälften av mjölken.").change();
 $("#funktionsnedsattningBalansKoordination").val("Det gör ont").change();
-$("#funktionsnedsattningAnnan").val("abc").change();
+$("#funktionsnedsattningAnnan").val("Tillsätt mjölet").change();
 
 $("input[id*='_avslutadBehandling_']").click();
 $("input[id*='_pagaendeBehandling_']").click();
@@ -115,4 +112,4 @@ $("input[id*='_substansintag_']").click();
 $("#ovrigt").val("Mycket material är hemligstämplat").change();
 
 $("input[id*='kontaktMedFk']").click();
-$("#anledningTillKontakt").val("Jag har hemligt material pÃ¥ mitt skrivbord som kan vara intressant för er").change();
+$("#anledningTillKontakt").val("Jag har hemligt material på mitt skrivbord som kan vara intressant för er").change();
