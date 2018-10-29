@@ -5,5 +5,5 @@ $("#aktivitetsbegransning").val("Additional police were already on campus becaus
 $("#harUtredningBehandlingYes").prop("checked", true).trigger("click");
 $("#utredningBehandling").val("The girls also had a goblet from which to drink blood, authorities said.").change();
 $("#harArbetetsPaverkanYes").prop("checked", true).trigger("click");
-$("#arbetetsPaverkan").val("When Ross Capicchioni was 17, he was lured into a bad neighborhood in Detroit's notorious east side, shot three times and left for dead. If Capicchioni had perished, his murder likely wouldn't have filtered all the way up to us, it would have read, just another kid gunned down in a bad part of a big city.").change();
+$("#arbetetsPaverkan").val('"!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
 $("#ovrigt").val("Övrigt övrigt övrigt");
