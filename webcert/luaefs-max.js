@@ -64,7 +64,7 @@ var checkForElement3 = setInterval(function() {
 }, 1000);
 $("#funktionsnedsattningDebut").val('Detta blir en kort text. Detta blir en kort text.').change();
 $("#funktionsnedsattningPaverkan").val("Patienten gör pga av sitt problem alldeles för mycket läxor.").change();
-$("#ovrigt").val("Inget övrigt.");
+$("#ovrigt").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 $("input[id*='kontaktMedFk']").click();
 $("#anledningTillKontakt").val("Nej.").change();
 
