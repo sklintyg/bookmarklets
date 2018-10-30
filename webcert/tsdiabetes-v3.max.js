@@ -23,7 +23,7 @@ $('#allmant\\.typAvDiabetes-ANNAN').prop('checked', true).trigger('click');
 $('#allmant-beskrivningAnnanTypAvDiabetes').val('Hej hopp').change();
 $('#allmant-behandling-endastKost').click();
 $('#allmant-behandling-tabletter').click();
-$('#allmant-behandling-tablettRiskHypoglykemiYes').click();
+$('#allmant-behandling-tablettRiskHypoglykemiYes')prop('checked', true).trigger('click');
 $('#allmant-behandling-insulin').click();
 $('#allmant-behandling-insulinSedanAr').val('2015').change();
 $('#allmant-behandling-annanBehandling').click();
