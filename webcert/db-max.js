@@ -1,6 +1,6 @@
 var today = new Date();
 var todayDateString = today.getFullYear() + "-" + ("0" + (today.getMonth() + 1)).slice(-2)  + "-" + ("0" + today.getDate()).slice(-2);
-$("#identitetStyrkt").val("Vattnadal").change();
+$("#identitetStyrkt").val("halloj!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 $("#land").val("Mordor").change();
 $("#dodsdatumSakertNo").prop("checked", true).trigger("click");
 $("#datepicker_antraffatDodDatum").val(todayDateString).change();
