@@ -50,7 +50,7 @@ $('#synfunktion-binokulart-utanKorrektion').val('2,0').change();
 $('#synfunktion-hoger-medKorrektion').val('1,9').change();
 $('#synfunktion-vanster-medKorrektion').val('1,0').change();
 $('#synfunktion-binokulart-medKorrektion').val('1,8').change();
-$('#ovrigt').val('Living easy, living free Season ticket on a one-way ride Asking nothing, leave me be Taking everything in my stride Dont need reason, dont need rhyme Aint nothing I would rather do Going down, party time My friends are gonna be there too').change();
+$('#ovrigt').val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
 $('#bedomning\\.uppfyllerBehorighetskrav-C1').click();
 $('#bedomning\\.uppfyllerBehorighetskrav-C1E').click();
 $('#bedomning\\.uppfyllerBehorighetskrav-C').click();
