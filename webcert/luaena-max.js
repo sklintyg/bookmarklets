@@ -109,7 +109,7 @@ $("input[id*='_pagaendeBehandling_']").click();
 $("input[id*='_planeradBehandling_']").click();
 $("input[id*='_substansintag_']").click();
 
-$("#ovrigt").val("Mycket material är hemligstämplat").change();
+$("#ovrigt").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 
 $("input[id*='kontaktMedFk']").click();
 $("#anledningTillKontakt").val("Jag har hemligt material på mitt skrivbord som kan vara intressant för er").change();
