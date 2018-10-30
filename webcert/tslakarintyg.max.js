@@ -57,7 +57,7 @@ $("#sjukhusvard-vardinrattning").val("Smultronet").change();
 $("#sjukhusvard-anledning").val("Nageltrång").change();
 $("#medicinering-stadigvarandeMedicineringYes").prop("checked", true).trigger("click");
 $("#medicinering-beskrivning").val("Alvedon.").change();
-$("#kommentar").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
+$("#kommentar").val("1!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 $("#behorighet_bedomning").prop("checked", true).trigger("click");
 $("#bedomning\\.korkortstyp-C1").click();
 $("#bedomning\\.korkortstyp-C1E").click();
