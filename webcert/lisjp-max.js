@@ -95,7 +95,7 @@ $("#arbetslivsinriktadeAtgarder-KONTAKT_FHV").click();
 $("#arbetslivsinriktadeAtgarder-OMFORDELNING").click();
 $("#arbetslivsinriktadeAtgarder-OVRIGA_ATGARDER").click();
 $("#arbetslivsinriktadeAtgarderAktuelltBeskrivning").val("Patienten behöver hjälp med allt.").change();
-$("#ovrigt").val('Detta blir en kort text.').change();
+$("#ovrigt").val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
 $("#kontaktMedFk").click();
 $("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbergs lila").change();
 
