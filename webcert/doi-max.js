@@ -53,7 +53,7 @@ $("#orsak-1-beskrivning").val("Något annat.").change();
 
 $("#orsak-1-datum").val(todayDateString).change();
 
-$("#orsak-2-beskrivning").val("Ytterligare något annat.").change();
+$("#orsak-2-beskrivning").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 
 $("#orsak-2-datum").val(todayDateString).change();
 
