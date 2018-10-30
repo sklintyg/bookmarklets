@@ -53,7 +53,7 @@ $("#orsak-1-beskrivning").val("Något annat.").change();
 
 $("#orsak-1-datum").val(todayDateString).change();
 
-$("#orsak-2-beskrivning").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
+$("#orsak-2-beskrivning").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ)").change();
 
 $("#orsak-2-datum").val(todayDateString).change();
 
@@ -65,7 +65,7 @@ $("#operation-JA").prop("checked", true).trigger("click");
 
 $("#datepicker_operationDatum").val(todayDateString).change();
 
-$("#operationAnledning").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
+$("#operationAnledning").val("!#$%&*+,-./0123456789:<=>)").change();
 
 $("#forgiftningYes").prop("checked", true).trigger("click");
 
