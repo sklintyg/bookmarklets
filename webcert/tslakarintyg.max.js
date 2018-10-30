@@ -69,4 +69,4 @@ $("#bedomning\\.korkortstyp-D").click();
 $("#bedomning\\.korkortstyp-DE").click();
 $("#bedomning\\.korkortstyp-TAXI").click();
 $("#bedomning\\.korkortstyp-ANNAT").click();
-$("#bedomning-lakareSpecialKompetens").val("Strangers searching for a young woman's missing father arrive at a tropical island.");
+$("#bedomning-lakareSpecialKompetens").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)");
