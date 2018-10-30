@@ -65,7 +65,7 @@ $("#operation-JA").prop("checked", true).trigger("click");
 
 $("#datepicker_operationDatum").val(todayDateString).change();
 
-$("#operationAnledning").val("Det behövdes").change();
+$("#operationAnledning").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
 
 $("#forgiftningYes").prop("checked", true).trigger("click");
 
