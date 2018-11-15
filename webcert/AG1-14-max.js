@@ -40,6 +40,3 @@ $("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategor
 $("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();
 
 
-#diagnoseCode-0
-#diagnoseCode-1
-#typeahead-932-9215-option-0 > a
