@@ -56,3 +56,5 @@ $("#sjukskrivningsgrad").val("75").change();
 $("#datepicker_sjukskrivningsperiod\\.from").val(createDateString(today)).change();
 $("#datepicker_sjukskrivningsperiod\\.tom").val(createDateString(today, 5)).change();
 $("#ovrigaUpplysningar").val("textertextertexter").change();
+$("#kontaktMedArbetsgivaren").click();
+$("#anledningTillKontakt").val("Banankontakt banankontakt.....av tredje graaaden.").change();
