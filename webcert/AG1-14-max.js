@@ -1,6 +1,16 @@
+var today = new Date();
+
+function createDateString(today, daysToAdd) {
+	if (daysToAdd) {
+		today.setDate(new Date().getDate() + daysToAdd);
+	}
+	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+	return todayDateString;
+}
 $("#nuvarandeArbete").val("textertextertexter").change();
 $("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
 $("#diagnoseCode-0").val("S47").change();
+$("li[id*='option-0']").click();
 
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
@@ -39,4 +49,10 @@ $("#S47-funktionsnedsattning-dropdown").click();
 $("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
 $("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();
 
-
+$("#nedsattArbetsformaga").val("text").change();
+$("#arbetsformagaTrotsSjukdomYes").prop("checked", true).trigger("click");
+$("#arbetsformagaTrotsSjukdomBeskrivning").val("en massa text.").change();
+$("#sjukskrivningsgrad").val("75").change();
+$("#datepicker_sjukskrivningsperiod\\.from").val(createDateString(today)).change();
+$("#datepicker_sjukskrivningsperiod\\.tom").val(createDateString(today, 5)).change();
+$("#ovrigaUpplysningar").val("textertextertexter").change();
