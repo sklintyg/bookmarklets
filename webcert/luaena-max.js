@@ -77,13 +77,13 @@ $("#nyBedomningDiagnosgrundYes").click();
 $("#diagnosForNyBedomning").val("G000").change();
 $("#sjukdomsforlopp").val('Detta blir en kort text.').change();
 
-$("#toggle-funktionsnedsattningIntellektuell").click();
-$("#toggle-funktionsnedsattningKommunikation").click();
-$("#toggle-funktionsnedsattningKoncentration").click();
-$("#toggle-funktionsnedsattningPsykisk").click();
-$("#toggle-funktionsnedsattningSynHorselTal").click();
-$("#toggle-funktionsnedsattningBalansKoordination").click();
-$("#toggle-funktionsnedsattningAnnan").click();
+$("#toggle-funktionsnedsattningIntellektuell > span > span").click();
+$("#toggle-funktionsnedsattningKommunikation > span > span").click();
+$("#toggle-funktionsnedsattningKoncentration > span >span").click();
+$("#toggle-funktionsnedsattningPsykisk > span > span").click();
+$("#toggle-funktionsnedsattningSynHorselTal > span > span").click();
+$("#toggle-funktionsnedsattningBalansKoordination > span > span").click();
+$("#toggle-funktionsnedsattningAnnan >span > span").click();
 
 $("#aktivitetsbegransning").val("Patienten kan inte räcka upp armen.").change();
 $("#avslutadBehandling").val("Rehabträning").change();
