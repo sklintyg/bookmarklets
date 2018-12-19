@@ -10,12 +10,11 @@ function createDateString(today, daysToAdd) {
 $("#nuvarandeArbete").val("textertextertexter").change();
 $("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
 $("#diagnoseCode-0").val("S47").change();
-$("li[id*='option-0']").click();
 
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
-	if ($("#diagnoseCode-0").children("a:contains('S47')").length && firstFound === false) {
-		$("#diagnoseCode-0']").click().blur();
+	if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
+		$("li[id*='option-0']").click();
 		firstFound = true;
 	}
 	if ($("li[id*='option-0']").children("a:contains('S47')").length === 0 && firstFound === true) {
@@ -58,3 +57,5 @@ $("#datepicker_sjukskrivningsperiod\\.tom").val(createDateString(today, 5)).chan
 $("#ovrigaUpplysningar").val("textertextertexter").change();
 $("#kontaktMedArbetsgivaren").click();
 $("#anledningTillKontakt").val("Banankontakt banankontakt.....av tredje graaaden.").change();
+
+//$("li[id*='option-0']").click();

@@ -57,13 +57,23 @@ var checkForElement2 = setInterval(function() {
 var checkForElement3 = setInterval(function() {
 	if ($("li[id*='option-0']").children("a:contains('M659B')").length) {
 		$("li[id*='option-0']").children("a:contains('M659B')").click().blur();
+		waitForElementToDisplay("#S47-funktionsnedsattning-dropdown", 3000);
 		clearInterval(checkForElement3);
 	}
 }, 1000);
 
-$("#S47-funktionsnedsattning-dropdown").click();
-$("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
-$("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();
+function waitForElementToDisplay(selector, time) {
+    if(document.querySelector(selector)!=null) {
+        alert("The element ("+selector+") is displayed.");
+        setTimeout(function() {
+        	$("#S47-funktionsnedsattning-dropdown").click();
+        }, 3000);
+    } else {
+        setTimeout(function() {
+        	waitForElementToDisplay(selector, time);
+        }, time);
+    }
+}
 
 $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
@@ -106,3 +116,7 @@ $("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbe
 
 
 // Saknas ID för antal timmar i veckan arbetat, skapa JIRA
+
+//$("#S47-funktionsnedsattning-dropdown").click();
+//$("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
+//$("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();
