@@ -74,6 +74,8 @@ $("#aktivitetsbegransning").val("Se föregående.").change();
 $("#pagaendeBehandling").val("Smörjer med diverse krämer.").change();
 $("#planeradBehandling").val("Mer krämer.").change();
 
+$("#form_sjukskrivningar > div > div > div > label > input").val("40").change
+
 $("#sjukskrivningar-EN_FJARDEDEL-from").val(createDateString(today)).change();
 $("#sjukskrivningar-EN_FJARDEDEL-tom").val(createDateString(today, 5)).change();
 $("#sjukskrivningar-HALFTEN-from").val(createDateString(today, 6)).change();
