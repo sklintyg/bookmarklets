@@ -26,6 +26,8 @@ $("#sysselsattning-FORALDRALEDIG").click();
 $("#sysselsattning-STUDIER").click();
 $("#arbetsmarknadspolitisktProgram").val("Plantskole rektor").change();
 
+
+
 $("#diagnoseCode-0").val("S47").change();
 
 var firstFound = false;
@@ -122,8 +124,3 @@ $("#kontaktMedAg").click();
 $("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbergs lila").change();
 
 
-// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
-
-//$("#S47-funktionsnedsattning-dropdown").click();
-//$("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
-//$("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();

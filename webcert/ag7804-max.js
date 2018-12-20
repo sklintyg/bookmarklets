@@ -26,6 +26,8 @@ $("#sysselsattning-FORALDRALEDIG").click();
 $("#sysselsattning-STUDIER").click();
 $("#arbetsmarknadspolitisktProgram").val("Plantskole rektor").change();
 
+$("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
+
 $("#diagnoseCode-0").val("S47").change();
 
 var firstFound = false;
@@ -60,6 +62,8 @@ var checkForElement3 = setInterval(function() {
 		clearInterval(checkForElement3);
 	}
 }, 1000);
+
+$("#onskarFormedlaFunktionsnedsattningYes").prop("checked", true).trigger("click");
 
 $("#S47-funktionsnedsattning-dropdown").click();
 $("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
@@ -105,4 +109,3 @@ $("#kontaktMedAg").click();
 $("#anledningTillKontakt").val("Har väntat 12 år på att få öppna min löfbergs lila").change();
 
 
-// Saknas ID för antal timmar i veckan arbetat, skapa JIRA
