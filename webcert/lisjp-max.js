@@ -64,9 +64,15 @@ var checkForElement3 = setInterval(function() {
 
 function waitForElementToDisplay(selector, time) {
     if(document.querySelector(selector)!=null) {
-        alert("The element ("+selector+") is displayed.");
         setTimeout(function() {
-        	$("#S47-funktionsnedsattning-dropdown").click();
+			$("#S47-funktionsnedsattning-dropdown").click();
+			$("#S47-funktionsnedsattning-plate :input").each(function(i,item) {
+				$(item).click();
+			});
+			$("#S47-aktivitetsbegransning-dropdown").click();
+			$("#S47-aktivitetsbegransning-plate :input").each(function(i,item) {
+				$(item).click();
+			});
         }, 3000);
     } else {
         setTimeout(function() {
@@ -74,6 +80,7 @@ function waitForElementToDisplay(selector, time) {
         }, time);
     }
 }
+
 
 $("#funktionsnedsattning").val("Kan inte plocka blommor.").change();
 $("#aktivitetsbegransning").val("Se föregående.").change();
