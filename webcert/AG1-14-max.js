@@ -7,7 +7,7 @@ function createDateString(today, daysToAdd) {
 	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
 	return todayDateString;
 }
-$("#nuvarandeArbete").val("textertextertexter").change();
+$("#nuvarandeArbete").val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
 $("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
 $("#diagnoseCode-0").val("S47").change();
 
@@ -48,7 +48,7 @@ $("#S47-funktionsnedsattning-dropdown").click();
 $("#S47-funktionsnedsattning-plate > div.kategori-content > div > ue-icf-kategori:nth-child(5) > div > div > input").click();
 $("#S47-funktionsnedsattning-plate > div.kategori-footer > input.btn.btn-success.kategori-add").click();
 
-$("#nedsattArbetsformaga").val("text").change();
+$("#nedsattArbetsformaga").val("Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\n Visst ska det gå. Visst ska det gå.\n Visst\n ska\n det\n gå.\n Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå.").change();
 $("#arbetsformagaTrotsSjukdomYes").prop("checked", true).trigger("click");
 $("#arbetsformagaTrotsSjukdomBeskrivning").val("en massa text.").change();
 $("#sjukskrivningsgrad").val("75").change();
