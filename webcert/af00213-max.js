@@ -1,0 +1,13 @@
+$("#harFunktionsnedsattningYes").prop("checked", true);
+$("#harFunktionsnedsattningYes").click();
+$("#funktionsnedsattning").val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)');
+$("#harAktivitetsbegransningYes").prop("checked", true);
+$("#harAktivitetsbegransningYes").click();
+$("#aktivitetsbegransning").val("Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\n Visst ska det gå. Visst ska det gå.\n Visst\n ska\n det\n gå.\n Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå. Visst ska det gå.\nVisst ska det gå. Visst ska det gå. Visst ska det gå.Visst ska det gå. Visst ska det gå. Visst ska det gå.").change();
+$("#harUtredningBehandlingYes").prop("checked", true);
+$("#harUtredningBehandlingYes").click();
+$("#utredningBehandling").val("Havet är fullt av fasor: sonarbilder som avslöjar suddiga mardrömmar, ljud som skvallrar om obegripliga varelser och former som hotar med sin blotta existens.").change();
+$("#harArbetetsPaverkanYes").prop("checked", true);
+$("#harArbetetsPaverkanYes").click();
+$("#arbetetsPaverkan").val("Världshistoriens mesta femme fatale vars längtan efter spänning och glamour ledde in i ett högt spel hon som hon inte kunde reglerna för – och det blev hennes dramatiska fall.").change();
+$("#ovrigt").val("I augusti 1992 drabbas Gotabanken av en rififi-kupp, genomförd utan vapen eller våld. Gärningsmännen får med sig ett rekordbyte. Nu berättar tre av dem om hur kuppen gick till.").change();
