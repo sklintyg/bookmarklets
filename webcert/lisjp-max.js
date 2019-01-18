@@ -19,6 +19,7 @@ $("#checkbox_telefonkontaktMedPatienten").click();
 $("#checkbox_journaluppgifter").click();
 $("#checkbox_annatGrundForMU").click();
 $("#annatGrundForMUBeskrivning").val('Journal from down below').change();
+$("#motiveringTillInteBaseratPaUndersokning").val('Därför Därför Därför').change();
 $("#sysselsattning-NUVARANDE_ARBETE").click();
 $("#nuvarandeArbete").val("Blomplockare").change();
 $("#sysselsattning-ARBETSSOKANDE").click();
