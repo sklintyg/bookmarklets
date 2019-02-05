@@ -50,7 +50,7 @@ $('#synfunktion-binokulart-utanKorrektion').val('2,0').change();
 $('#synfunktion-hoger-medKorrektion').val('1,9').change();
 $('#synfunktion-vanster-medKorrektion').val('1,0').change();
 $('#synfunktion-binokulart-medKorrektion').val('1,8').change();
-$('#ovrigt').val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
+$('#ovrigt').val("Lite vanlig hederlig text.").change();
 $('#bedomning\\.uppfyllerBehorighetskrav-C1').click();
 $('#bedomning\\.uppfyllerBehorighetskrav-C1E').click();
 $('#bedomning\\.uppfyllerBehorighetskrav-C').click();
