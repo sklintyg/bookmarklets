@@ -7,7 +7,7 @@ function createDateString(today, daysToAdd) {
 	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
 	return todayDateString;
 }
-$("#nuvarandeArbete").val('!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)').change();
+$("#nuvarandeArbete").val("Lite vanlig hederlig text.").change();
 $("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
 $("#diagnoseCode-0").val("S47").change();
 
