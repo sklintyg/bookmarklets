@@ -96,7 +96,7 @@ $("input[id*='_substansintag_']").click();
 $("#substansintag").val("Smärtlindring").change();
 $("#medicinskaForutsattningarForArbete").val("Rehabträning ska ge resultat om 1 år").change();
 $("#formagaTrotsBegransning").val("Laga mat går bra, men endast på fredagar").change();
-$("#ovrigt").val("!#$%&*+,-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^)_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™šžŸ ¡¢£¤¥¦§¨©ª«¬­¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ)").change();
+$("#ovrigt").val("Lite vanlig hederlig text.").change();
 $("input[id*='kontaktMedFk']").click();
 
 $("#funktionsnedsattningIntellektuell").val("Pga smärtan påverkas intellektet").change();
