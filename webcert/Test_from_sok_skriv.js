@@ -6,7 +6,7 @@ var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1))
 
 $("#pnr").val("19710301-1032").change();
 $("#skapapersonnummerfortsatt").click();
-
+select name"#intygTypeFortsatt-lisjp").click();
 
 $("#intygType").val('string:fk7263').change();
 
