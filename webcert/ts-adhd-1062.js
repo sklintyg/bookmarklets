@@ -48,12 +48,26 @@ var checkForElement2 = setInterval(function() {
 }, 1000);
 
 var checkForElement3 = setInterval(function() {
-	if ($("li[id*='option-0']").children("a:contains('M659B')").length) {
-		$("li[id*='option-0']").children("a:contains('M659B')").click().blur();
+	if ($("li[id*='option-0']").children("a:contains('M659B')").length && secondFound === false) {
+		$("li[id*='option-0']").click();
+		secondFound = true;
+	}
+	if ($("li[id*='option-0']").children("a:contains('M659B')").length === 0 && secondFound === true) {
+		$("#laggTillDiagnos").click().blur();
+		$("#diagnoseCode-3").val('W58').change();
+		clearInterval(checkForElement3);
+	}
+}, 1000);
+
+var checkForElement4 = setInterval(function() {
+	if ($("li[id*='option-0']").children("a:contains('W58')").length) {
+		$("li[id*='option-0']").children("a:contains('W58')").click().blur();
 		waitForElementToDisplay("#S47-funktionsnedsattning-dropdown", 3000);
 		clearInterval(checkForElement3);
 	}
 }, 1000);
+
+
 
 function waitForElementToDisplay(selector, time) {
     if(document.querySelector(selector)!=null) {
@@ -77,6 +91,7 @@ function waitForElementToDisplay(selector, time) {
 $('#diagnosKodad-0--diagnosArtal').val('2019').change();
 $('#diagnosKodad-1--diagnosArtal').val('2018').change();
 $('#diagnosKodad-2--diagnosArtal').val('2017').change();
+$('#diagnosKodad-3--diagnosArtal').val('2017').change();
 $('#lakemedelsbehandling-harHaftYes').prop('checked', true).trigger('click');
 $('#lakemedelsbehandling-pagarYes').prop('checked', true).trigger('click');
 $('#lakemedelsbehandling-aktuell').val('Patienten har tittat mycket på Days of our lives.').change();
