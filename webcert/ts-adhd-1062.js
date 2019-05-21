@@ -47,12 +47,13 @@ var checkForElement2 = setInterval(function() {
 	}
 }, 1000);
 
+var thirdFound = false;
 var checkForElement3 = setInterval(function() {
-	if ($("li[id*='option-0']").children("a:contains('M659B')").length && secondFound === false) {
+	if ($("li[id*='option-0']").children("a:contains('M659B')").length && thirdFound === false) {
 		$("li[id*='option-0']").click();
-		secondFound = true;
+		thirdFound = true;
 	}
-	if ($("li[id*='option-0']").children("a:contains('M659B')").length === 0 && secondFound === true) {
+	if ($("li[id*='option-0']").children("a:contains('M659B')").length === 0 && thirdFound === true) {
 		$("#laggTillDiagnos").click().blur();
 		$("#diagnoseCode-3").val('W58').change();
 		clearInterval(checkForElement3);
