@@ -1,3 +1,13 @@
+var today = new Date();
+
+function createDateString(today, daysToAdd) {
+	if (daysToAdd) {
+		today.setDate(new Date().getDate() + daysToAdd);
+	}
+	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+	return todayDateString;
+}
+
 $("#intygAvser\\.korkortstyp-AM").click();
 $("#intygAvser\\.korkortstyp-A1").click();
 $("#intygAvser\\.korkortstyp-A2").click();
@@ -26,7 +36,7 @@ $("#hypoglykemier-kunskapOmAtgarderNo").prop("checked", true).trigger("click");
 $("#hypoglykemier-teckenNedsattHjarnfunktionYes").prop("checked", true).trigger("click");
 $("#hypoglykemier-egenkontrollBlodsockerYes").prop("checked", true).trigger("click");
 $("#hypoglykemier-allvarligForekomstVakenTidYes").prop("checked",true).trigger("click");
-$("#datepicker_hypoglykemier.allvarligForekomstVakenTidObservationstid".replace(".","\\.")).val("2018-04-20").change();  //bort med punkter i id
+$("#datepicker_hypoglykemier.allvarligForekomstVakenTidObservationstid".replace(".","\\.")).val(createDateString(today)).change();
 $("#hypoglykemier-saknarFormagaKannaVarningsteckenYes").prop("checked", true).trigger("click");
 $("#hypoglykemier-allvarligForekomstYes").prop("checked", true).trigger("click");
 $("#hypoglykemier-allvarligForekomstBeskrivning").prop("value","1abcåäö--10ABCÅÄÖ--20- -------30").change();
