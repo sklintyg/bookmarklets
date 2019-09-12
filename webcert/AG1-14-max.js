@@ -7,10 +7,15 @@ function createDateString(today, daysToAdd) {
 	var todayDateString = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
 	return todayDateString;
 }
+
+$("#checkbox_undersokningAvPatienten").click();
+$("#checkbox_telefonkontaktMedPatienten").click();
+$("#checkbox_journaluppgifter").click();
+$("#checkbox_annatGrundForMU").click();
+$("#annatGrundForMUBeskrivning").val('Journal from down below').change();
 $("#nuvarandeArbete").val("Lite vanlig hederlig text.").change();
 $("#onskarFormedlaDiagnosYes").prop("checked", true).trigger("click");
 $("#diagnoseCode-0").val("S47").change();
-
 var firstFound = false;
 var checkForElement1 = setInterval(function() {
 	if ($("li[id*='option-0']").children("a:contains('S47')").length && firstFound === false) {
@@ -57,5 +62,3 @@ $("#datepicker_sjukskrivningsperiod\\.tom").val(createDateString(today, 5)).chan
 $("#ovrigaUpplysningar").val("textertextertexter").change();
 $("#kontaktMedArbetsgivaren").click();
 $("#anledningTillKontakt").val("Banankontakt banankontakt.....av tredje graaaden.").change();
-
-//$("li[id*='option-0']").click();
