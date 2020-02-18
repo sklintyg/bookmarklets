@@ -5,7 +5,7 @@ $("#dodsdatumSakertNo").prop("checked", true).trigger("click");
 $("#datepicker_antraffatDodDatum").val(todayDateString).change();
 $("#dodsplatsKommun").val("*3*5*7*9*12*15*18*21*24*27*30*33*36*39*42*45*48*51*54*57*60*63*66*69*72*75*78*81*84*87*90*93*96*100*").change();
 $("#dodsdatum-year-selected-item-label").click();
-$("#dodsdatum-year-2018").click();
+$("#dodsdatum-year-2019").click();
 $("#dodsdatum-month-selected-item-label").click();
 $("#dodsdatum-month-04").click();
 $("#dodsplatsBoende-ORDINART_BOENDE").prop("checked", true).trigger("click");

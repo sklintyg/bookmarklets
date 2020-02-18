@@ -16,7 +16,7 @@ $("#dodsplatsKommun").val("Vattnadal").change();
 
 $("#dodsdatum-year-selected-item-label").click();
 
-$("#dodsdatum-year-2018").click();
+$("#dodsdatum-year-2019").click();
 
 $("#dodsdatum-month-selected-item-label").click();
 
