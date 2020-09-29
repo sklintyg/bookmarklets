@@ -3,7 +3,7 @@ var todayDateString = today.getFullYear() + "-" + ("0" + (today.getMonth() + 1))
 $("#identitetStyrkt").val("Lite text.").change();
 $("#dodsdatumSakertNo").prop("checked", true).trigger("click");
 $("#datepicker_antraffatDodDatum").val(todayDateString).change();
-$("#dodsplatsKommun").val("*Karlstad").change();
+$("#dodsplatsKommun").val("Karlstad").change();
 $("#dodsdatum-year-selected-item-label").click();
 $("#dodsdatum-year-2019").click();
 $("#dodsdatum-month-selected-item-label").click();
