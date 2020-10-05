@@ -28,7 +28,7 @@ $('#allmant-behandling-insulin').click();
 $('#allmant-behandling-insulinSedanAr').val('2015').change();
 $('#allmant-behandling-annanBehandling').click();
 $('#allmant-behandling-annanBehandlingBeskrivning').val('HEJ1abcåäö--10ABCÅÄÖ--20 --------30-------40').change(); 
-$('#allmant-behandling-riskHypoglykemiYes').click();
+$('#allmant-behandling-riskHypoglykemiYes').prop('checked', true).trigger('click');
 $('#hypoglykemier-egenkontrollBlodsockerYes').prop('checked', true).trigger('click');
 $('#hypoglykemier-nedsattHjarnfunktionYes').prop('checked', true).trigger('click');
 $('#hypoglykemier-sjukdomenUnderKontrollYes').prop('checked', true).trigger('click');
