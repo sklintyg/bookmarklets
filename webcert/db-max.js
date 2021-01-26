@@ -7,7 +7,7 @@ $("#dodsplatsKommun").val("Karlstad").change();
 $("#dodsdatum-year-selected-item-label").click();
 $("#dodsdatum-year-2020").click();
 $("#dodsdatum-month-selected-item-label").click();
-$("#dodsdatum-month-04").click();
+$("#dodsdatum-month-05").click();
 $("#dodsplatsBoende-ORDINART_BOENDE").prop("checked", true).trigger("click");
 $("#barnNo").prop("checked", true).trigger("click");
 $("#explosivImplantatYes").prop("checked", true).trigger("click");
