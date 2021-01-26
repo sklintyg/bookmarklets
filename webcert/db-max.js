@@ -12,7 +12,7 @@ $("#dodsplatsBoende-ORDINART_BOENDE").prop("checked", true).trigger("click");
 $("#barnNo").prop("checked", true).trigger("click");
 $("#explosivImplantatYes").prop("checked", true).trigger("click");
 $("#explosivAvlagsnatYes").prop("checked", true).trigger("click");
-$("#undersokningYttre-UNDERSOKNING_GJORT_KORT_FORE_DODEN").prop("checked", true).trigger("click");
+$("#undersokningYttre-DETALJER_UNDERSOKNING-UNDERSOKNING_GJORT_KORT_FORE_DODEN").prop("checked", true).trigger("click");
 $("#datepicker_undersokningDatum").val(todayDateString).change();
 $("#polisanmalanYes").prop("checked", true).trigger("click");
 
