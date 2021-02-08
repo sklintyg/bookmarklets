@@ -6,7 +6,7 @@ var todayDateString = today.getFullYear() + "-" + ("0" + (today.getMonth() + 1))
 
 $("#identitetStyrkt").val("Anhörig").change();
 
-$("#land").val("Mordor").change();
+$("#land").val("Mordor i Bergen").change();
 
 $("#dodsdatumSakertNo").prop("checked", true).trigger("click");
 
@@ -65,7 +65,7 @@ $("#operation-JA").prop("checked", true).trigger("click");
 
 $("#datepicker_operationDatum").val(todayDateString).change();
 
-$("#operationAnledning").val("Lite vanlig hederlig text.").change();
+$("#operationAnledning").val("Lite vanlig text.").change();
 
 $("#forgiftningYes").prop("checked", true).trigger("click");
 
