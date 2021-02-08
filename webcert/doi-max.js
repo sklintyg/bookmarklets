@@ -53,7 +53,7 @@ $("#orsak-1-beskrivning").val("Något annat.").change();
 
 $("#orsak-1-datum").val(todayDateString).change();
 
-$("#orsak-2-beskrivning").val("Lite vanlig hederlig text.").change();
+$("#orsak-2-beskrivning").val("Lite text.").change();
 
 $("#orsak-2-datum").val(todayDateString).change();
 
@@ -65,7 +65,7 @@ $("#operation-JA").prop("checked", true).trigger("click");
 
 $("#datepicker_operationDatum").val(todayDateString).change();
 
-$("#operationAnledning").val("Lite vanlig text.").change();
+$("#operationAnledning").val("Lite vanlig text2.").change();
 
 $("#forgiftningYes").prop("checked", true).trigger("click");
 
