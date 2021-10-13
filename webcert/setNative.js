@@ -1,13 +1,9 @@
-var ele = document.getElementsByName('ovrigt');
-setNativeValue(ele , 'Hej på dig');
+
 function setNativeValue(element, value) {
-    console.log("Hittar scriptet!");
-      const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
+          const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
       const prototype = Object.getPrototypeOf(element);
       const prototypeValueSetter = Object.getOwnPropertyDescriptor(prototype, 'value').set;
     alert(value);
-    //element.value = value;
-    //element.dispatchEvent(new Event('change',{bubbles:true}));
     
       if (valueSetter && valueSetter !== prototypeValueSetter) {
           prototypeValueSetter.call(element, value);
@@ -15,3 +11,6 @@ function setNativeValue(element, value) {
         valueSetter.call(element, value);
      }
 }
+var ele = document.getElementsByName('ovrigt');
+setNativeValue(ele , 'Hej på dig');
+textarea.dispatchEvent(new Event('input', { bubbles: true }));
