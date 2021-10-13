@@ -13,4 +13,4 @@ function setNativeValue(element, value) {
 }
 var ele = document.getElementsByName('ovrigt');
 setNativeValue(ele , 'Hej på dig');
-textarea.dispatchEvent(new Event('input', { bubbles: true }));
+ele.dispatchEvent(new Event('input', { bubbles: true }));
