@@ -18,11 +18,11 @@ function changeValue(input,value){
       "value"
     ).set;
     nativeInputValueSetter.call(input, value);
-
+    alert(value);
     var inputEvent = new Event("input", { bubbles: true });
     input.dispatchEvent(inputEvent);
 }
 var ele = document.getElementsByName('ovrigt');
-setNativeValue(ele , 'Hej på dig');
+//setNativeValue(ele , 'Hej på dig');
 ele.dispatchEvent(new Event('input', { bubbles: true }));
 changeValue(ele,'Nu hoppas vi att det funkar');
