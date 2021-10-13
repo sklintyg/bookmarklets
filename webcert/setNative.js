@@ -1,3 +1,5 @@
+var ele = document.getElementsByName('ovrigt');
+setNativeValue(ele , 'Hej på dig');
 function setNativeValue(element, value) {
    // console.log("Hittar scriptet!");
      // const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
