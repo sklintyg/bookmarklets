@@ -24,12 +24,15 @@ function changeValue(input,value){
 }
 const textarea = document.getElementsByName('ovrigt');
 
-var nativeTextAreaValueSetter = Object.getOwnPropertyDescriptor(window.HTMLTextAreaElement.prototype, "value").set;
-nativeTextAreaValueSetter.call(textarea, 'This should be in state');
+//var nativeTextAreaValueSetter = Object.getOwnPropertyDescriptor(window.HTMLTextAreaElement.prototype, "value").set;
+//nativeTextAreaValueSetter.call(textarea, 'This should be in state');
 
-const event = new Event('input', { bubbles: true});
-textarea.dispatchEvent(event);
-var ele = document.getElementsByName('ovrigt');
+//const event = new Event('input', { bubbles: true});
+const theEv = new Event('input', { bubbles: true});
+theEv.simulated = true;
+textarea.value = 'Detta vill jag skriva in';
+textarea.dispatchEvent(theEv);
+//var ele = document.getElementsByName('ovrigt');
 //setNativeValue(ele , 'Hej på dig');
-ele.dispatchEvent(new Event('input', { bubbles: true }));
-changeValue(ele,'Nu hoppas vi att det funkar');
+//ele.dispatchEvent(new Event('input', { bubbles: true }));
+//changeValue(ele,'Nu hoppas vi att det funkar');
