@@ -10,6 +10,4 @@ if (valueSetter && valueSetter !== prototypeValueSetter) {
   valueSetter.call(element, value);
   }
 }
-var ele = document.getElementsByName('ovrig');
-setNativeValue(ele , 'Hej på dig');
 ele.dispatchEvent(new Event('input', { bubbles: true }));
