@@ -64,4 +64,4 @@ $("#bedomning\\.uppfyllerBehorighetskrav-VAR6").click();
 $("#bedomning\\.uppfyllerBehorighetskrav-VAR7").click();
 $("#bedomning\\.uppfyllerBehorighetskrav-VAR8").click();
 $("#bedomning\\.uppfyllerBehorighetskrav-VAR9").click();
-$('#bedomning-ovrigaKommentarer').val('HEJ1abcåäö--10ABCÅÄÖ--20 --------30-------99').change();
+$('#bedomning-ovrigaKommentarer').val('HEJ1abcåäö--10ABCÅÄÖ--20 --------30-------99??').change();
